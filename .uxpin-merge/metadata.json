@@ -508,7 +508,7 @@
   "name": "Example Design System",
   "vcs": {
     "branchName": "master",
-    "commitHash": "21dda8328fcb5da8a8b14399fea3a60774f05a0d",
+    "commitHash": "b123dbb0a76783e3a1676e1e02bebe1f392d9afe",
     "paths": {
       "configPath": "/Users/evantrujillo/Documents/coding/work/rn-paper-merge/uxpin.config.js",
       "projectRoot": "/Users/evantrujillo/Documents/coding/work/rn-paper-merge"
