@@ -1,0 +1,517 @@
+{
+  "categorizedComponents": [
+    {
+      "components": [
+        {
+          "defaultExported": true,
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/components/Button",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/components/Button/Button.js"
+            },
+            "presets": [
+              {
+                "path": "src/components/Button/presets/0-default.jsx"
+              }
+            ]
+          },
+          "name": "Button",
+          "presets": [
+            {
+              "elements": {
+                "button": {
+                  "name": "Button",
+                  "props": {
+                    "children": "Button",
+                    "disabled": false
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "button"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "mode",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "text"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "outlined"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "contained"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            }
+          ],
+          "wrappers": []
+        },
+        {
+          "defaultExported": true,
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/components/CardActions",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/components/CardActions/CardActions.js"
+            },
+            "presets": [
+              {
+                "path": "src/components/CardActions/presets/0-default.jsx"
+              }
+            ]
+          },
+          "name": "CardAction",
+          "presets": [
+            {
+              "elements": {
+                "test": {
+                  "name": "Card",
+                  "props": {
+                    "children": [
+                      {
+                        "uxpinPresetElementId": "test2"
+                      }
+                    ]
+                  }
+                },
+                "test2": {
+                  "name": "CardAction",
+                  "props": {
+                    "children": [
+                      {
+                        "uxpinPresetElementId": "test3"
+                      },
+                      {
+                        "uxpinPresetElementId": "test4"
+                      }
+                    ]
+                  }
+                },
+                "test3": {
+                  "name": "Button",
+                  "props": {
+                    "children": "Cancel"
+                  }
+                },
+                "test4": {
+                  "name": "Button",
+                  "props": {
+                    "children": "Ok"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "test"
+            }
+          ],
+          "properties": [],
+          "wrappers": []
+        },
+        {
+          "defaultExported": true,
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/components/Card",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/components/Card/Card.js"
+            },
+            "presets": [
+              {
+                "path": "src/components/Card/presets/0-default.jsx"
+              }
+            ]
+          },
+          "name": "Card",
+          "presets": [
+            {
+              "elements": {
+                "tes4": {
+                  "name": "Title",
+                  "props": {
+                    "children": "Card title"
+                  }
+                },
+                "tes6t": {
+                  "name": "CardCover",
+                  "props": {
+                    "source": {
+                      "uri": "https://picsum.photos/700"
+                    }
+                  }
+                },
+                "tes8": {
+                  "name": "Button",
+                  "props": {
+                    "children": "Cancel"
+                  }
+                },
+                "test": {
+                  "name": "Card",
+                  "props": {
+                    "children": [
+                      {
+                        "uxpinPresetElementId": "test3"
+                      },
+                      {
+                        "uxpinPresetElementId": "tes6t"
+                      },
+                      {
+                        "uxpinPresetElementId": "test7"
+                      }
+                    ]
+                  }
+                },
+                "test3": {
+                  "name": "CardContent",
+                  "props": {
+                    "children": [
+                      {
+                        "uxpinPresetElementId": "tes4"
+                      },
+                      {
+                        "uxpinPresetElementId": "test5"
+                      }
+                    ]
+                  }
+                },
+                "test5": {
+                  "name": "Paragraph",
+                  "props": {
+                    "children": "Card content"
+                  }
+                },
+                "test7": {
+                  "name": "CardAction",
+                  "props": {
+                    "children": [
+                      {
+                        "uxpinPresetElementId": "tes8"
+                      },
+                      {
+                        "uxpinPresetElementId": "test9"
+                      }
+                    ]
+                  }
+                },
+                "test9": {
+                  "name": "Button",
+                  "props": {
+                    "children": "Ok"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "test"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "mode",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "elevated"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "outlined"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "wrappers": []
+        },
+        {
+          "defaultExported": true,
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/components/AvatarIcon",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/components/AvatarIcon/AvatarIcon.js"
+            },
+            "presets": []
+          },
+          "name": "AvatarIcon",
+          "presets": [],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "icon",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            }
+          ],
+          "wrappers": []
+        },
+        {
+          "defaultExported": true,
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/components/CardContent",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/components/CardContent/CardContent.js"
+            },
+            "presets": [
+              {
+                "path": "src/components/CardContent/presets/0-default.jsx"
+              }
+            ]
+          },
+          "name": "CardContent",
+          "presets": [
+            {
+              "elements": {
+                "fafa": {
+                  "name": "Card",
+                  "props": {
+                    "children": [
+                      {
+                        "uxpinPresetElementId": "fafaa"
+                      }
+                    ]
+                  }
+                },
+                "fafaa": {
+                  "name": "CardContent",
+                  "props": {
+                    "children": [
+                      {
+                        "uxpinPresetElementId": "faffa"
+                      },
+                      {
+                        "uxpinPresetElementId": "fafda"
+                      }
+                    ]
+                  }
+                },
+                "fafda": {
+                  "name": "Paragraph",
+                  "props": {
+                    "children": "Card content"
+                  }
+                },
+                "faffa": {
+                  "name": "Title",
+                  "props": {
+                    "children": "Card title"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "fafa"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            }
+          ],
+          "wrappers": []
+        },
+        {
+          "defaultExported": true,
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/components/CardTitle",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/components/CardTitle/CardTitle.js"
+            },
+            "presets": []
+          },
+          "name": "CardTitle",
+          "presets": [],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "title",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "subtitle",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            }
+          ],
+          "wrappers": []
+        },
+        {
+          "defaultExported": true,
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/components/CardCover",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/components/CardCover/CardCover.js"
+            },
+            "presets": []
+          },
+          "name": "CardCover",
+          "presets": [],
+          "properties": [],
+          "wrappers": []
+        },
+        {
+          "defaultExported": true,
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/components/Paragraph",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/components/Paragraph/Paragraph.js"
+            },
+            "presets": []
+          },
+          "name": "Paragraph",
+          "presets": [],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            }
+          ],
+          "wrappers": []
+        },
+        {
+          "defaultExported": true,
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/components/Title",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/components/Title/Title.js"
+            },
+            "presets": []
+          },
+          "name": "Title",
+          "presets": [],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            }
+          ],
+          "wrappers": []
+        }
+      ],
+      "name": "General"
+    }
+  ],
+  "name": "Example Design System",
+  "vcs": {
+    "branchName": "master",
+    "commitHash": "21dda8328fcb5da8a8b14399fea3a60774f05a0d",
+    "paths": {
+      "configPath": "/Users/evantrujillo/Documents/coding/work/rn-paper-merge/uxpin.config.js",
+      "projectRoot": "/Users/evantrujillo/Documents/coding/work/rn-paper-merge"
+    }
+  }
+}
